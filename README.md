@@ -30,15 +30,15 @@ The required libraries are:
    python rapidkl_ridership_download.py
    ```
 ## File Structure
-1) daily_ridership.parquet – Stores processed daily ridership data.
-2) monthly_ridership.parquet – Stores processed monthly ridership data.
+- daily_ridership.parquet – Stores processed daily ridership data.
+- monthly_ridership.parquet – Stores processed monthly ridership data.
 
 ## Error Handling
-If the data download fails, the script will print an error message with the HTTP status code.
+- If the data download fails, the script will print an error message with the HTTP status code.
 
 ## Key Additions
-1. You can set up Windows Task Scheduler to run the script monthly, ensuring you always obtain the latest ridership data.
+-  You can set up Windows Task Scheduler to run the script monthly, ensuring you always obtain the latest ridership data.
 
 ## Acknowledgments
-Data provided by data.gov.my.
-Built with Python and open-source libraries.
+- Data provided by data.gov.my.
+- Built with Python and open-source libraries.
