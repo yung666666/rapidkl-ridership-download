@@ -24,8 +24,8 @@ The required libraries are:
 - beautifulsoup4: For parsing HTML content.
 - pandas: For data manipulation and CSV handling.
 
-## Usage (Remember to install the required packages before running the commands below on "Anaconda Prompt" or "Command Prompt")
-- Run the commnads:
+## Usage
+- Run the commnads on "Anaconda Prompt" or "Command Prompt":
    ```bash
    python rapidkl_ridership_download.py
    ```
